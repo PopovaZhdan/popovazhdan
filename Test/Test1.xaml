@@ -1,0 +1,154 @@
+﻿<Window x:Class="popovazhdan.Test.Test1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:popovazhdan.Test"
+        mc:Ignorable="d"
+        Title="Test1" Height="800" Width="600" WindowStyle="None"  ResizeMode="NoResize">
+    <Grid>
+        <Image Grid.RowSpan="2" Source="C:\Users\WSR\source\repos\popovazhdan\Photo\1.png"/>
+        <Button Width="30" Height="30" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Right" VerticalAlignment="Top" Click="BtnClose2">
+            <Image Source="C:\Users\WSR\source\repos\popovazhdan\Photo\Без имени.png" Width="30" />
+        </Button>
+        
+        <TextBlock x:Name="tbZad1" Text="Задание теста" Margin="20,20,0,0" FontSize="18"/>
+        <RadioButton x:Name="rb1" Margin="20,60,0,0">
+            <RadioButton.Content>
+                <TextBlock x:Name="tbOt1" FontSize="12" Text="Ответ 1"/>
+            </RadioButton.Content>
+            <RadioButton.LayoutTransform>
+                <ScaleTransform ScaleX="2" ScaleY="2"/>
+            </RadioButton.LayoutTransform>
+        </RadioButton>
+        <RadioButton x:Name="rb11" Margin="20,140,0,0">
+            <RadioButton.Content>
+                <TextBlock x:Name="tbOt11" FontSize="12" Text="Ответ 2"/>
+            </RadioButton.Content>
+            <RadioButton.LayoutTransform>
+                <ScaleTransform ScaleX="2" ScaleY="2"/>
+            </RadioButton.LayoutTransform>
+        </RadioButton>
+        <RadioButton x:Name="rb111" Margin="280,60,0,0">
+            <RadioButton.Content>
+                <TextBlock x:Name="tbOt111" FontSize="12" Text="Ответ 3"/>
+            </RadioButton.Content>
+            <RadioButton.LayoutTransform>
+                <ScaleTransform ScaleX="2" ScaleY="2"/>
+            </RadioButton.LayoutTransform>
+        </RadioButton>
+        <RadioButton x:Name="rb1111" Margin="280,140,0,0">
+            <RadioButton.Content>
+                <TextBlock x:Name="tbOt1111" FontSize="12" Text="Ответ 4"/>
+            </RadioButton.Content>
+            <RadioButton.LayoutTransform>
+                <ScaleTransform ScaleX="2" ScaleY="2"/>
+            </RadioButton.LayoutTransform>
+        </RadioButton>
+
+
+        <TextBlock x:Name="tbZad2" Text="Задание теста" Margin="20,200,0,0" FontSize="18"/>
+        <RadioButton x:Name="rb2" Margin="20,240,0,0">
+            <RadioButton.Content>
+                <TextBlock x:Name="tbOt2" FontSize="12" Text="Ответ 1"/>
+            </RadioButton.Content>
+            <RadioButton.LayoutTransform>
+                <ScaleTransform ScaleX="2" ScaleY="2"/>
+            </RadioButton.LayoutTransform>
+        </RadioButton>
+        <RadioButton x:Name="rb22" Margin="20,320,0,0">
+            <RadioButton.Content>
+                <TextBlock x:Name="tbOt22" FontSize="12" Text="Ответ 2"/>
+            </RadioButton.Content>
+            <RadioButton.LayoutTransform>
+                <ScaleTransform ScaleX="2" ScaleY="2"/>
+            </RadioButton.LayoutTransform>
+        </RadioButton>
+        <RadioButton x:Name="rb222" Margin="280,240,0,0">
+            <RadioButton.Content>
+                <TextBlock x:Name="tbOt222" FontSize="12" Text="Ответ 3"/>
+            </RadioButton.Content>
+            <RadioButton.LayoutTransform>
+                <ScaleTransform ScaleX="2" ScaleY="2"/>
+            </RadioButton.LayoutTransform>
+        </RadioButton>
+        <RadioButton x:Name="rb2222" Margin="280,320,0,0">
+            <RadioButton.Content>
+                <TextBlock x:Name="tbOt2222" FontSize="12" Text="Ответ 4"/>
+            </RadioButton.Content>
+            <RadioButton.LayoutTransform>
+                <ScaleTransform ScaleX="2" ScaleY="2"/>
+            </RadioButton.LayoutTransform>
+        </RadioButton>
+
+
+        <TextBlock x:Name="tbZad3" Text="Задание теста" Margin="20,380,0,0" FontSize="18"/>
+        <RadioButton x:Name="rb3" Margin="20,420,0,0">
+            <RadioButton.Content>
+                <TextBlock x:Name="tbOt3" FontSize="12" Text="Ответ 1"/>
+            </RadioButton.Content>
+            <RadioButton.LayoutTransform>
+                <ScaleTransform ScaleX="2" ScaleY="2"/>
+            </RadioButton.LayoutTransform>
+        </RadioButton>
+        <RadioButton x:Name="rb33" Margin="20,500,0,0">
+            <RadioButton.Content>
+                <TextBlock x:Name="tbOt33" FontSize="12" Text="Ответ 2"/>
+            </RadioButton.Content>
+            <RadioButton.LayoutTransform>
+                <ScaleTransform ScaleX="2" ScaleY="2"/>
+            </RadioButton.LayoutTransform>
+        </RadioButton>
+        <RadioButton x:Name="rb333" Margin="280,420,0,0">
+            <RadioButton.Content>
+                <TextBlock x:Name="tbOt333" FontSize="12" Text="Ответ 3"/>
+            </RadioButton.Content>
+            <RadioButton.LayoutTransform>
+                <ScaleTransform ScaleX="2" ScaleY="2"/>
+            </RadioButton.LayoutTransform>
+        </RadioButton>
+        <RadioButton x:Name="rb3333" Margin="280,500,0,0">
+            <RadioButton.Content>
+                <TextBlock x:Name="tbOt3333" FontSize="12" Text="Ответ 4"/>
+            </RadioButton.Content>
+            <RadioButton.LayoutTransform>
+                <ScaleTransform ScaleX="2" ScaleY="2"/>
+            </RadioButton.LayoutTransform>
+        </RadioButton>
+
+
+        <TextBlock x:Name="tbZad4" Text="Задание теста" Margin="20,560,0,0" FontSize="18"/>
+        <RadioButton x:Name="rb4" Margin="20,600,0,0">
+            <RadioButton.Content>
+                <TextBlock x:Name="tbOt4" FontSize="12" Text="Ответ 1"/>
+            </RadioButton.Content>
+            <RadioButton.LayoutTransform>
+                <ScaleTransform ScaleX="2" ScaleY="2"/>
+            </RadioButton.LayoutTransform>
+        </RadioButton>
+        <RadioButton x:Name="rb44" Margin="20,680,0,0">
+            <RadioButton.Content>
+                <TextBlock x:Name="tbOt44" FontSize="12" Text="Ответ 2"/>
+            </RadioButton.Content>
+            <RadioButton.LayoutTransform>
+                <ScaleTransform ScaleX="2" ScaleY="2"/>
+            </RadioButton.LayoutTransform>
+        </RadioButton>
+        <RadioButton x:Name="rb444" Margin="280,600,0,0">
+            <RadioButton.Content>
+                <TextBlock x:Name="tbOt444" FontSize="12" Text="Ответ 3"/>
+            </RadioButton.Content>
+            <RadioButton.LayoutTransform>
+                <ScaleTransform ScaleX="2" ScaleY="2"/>
+            </RadioButton.LayoutTransform>
+        </RadioButton>
+        <RadioButton x:Name="rb4444" Margin="280,680,0,0">
+            <RadioButton.Content>
+                <TextBlock x:Name="tbOt4444" FontSize="12" Text="Ответ 4"/>
+            </RadioButton.Content>
+            <RadioButton.LayoutTransform>
+                <ScaleTransform ScaleX="2" ScaleY="2"/>
+            </RadioButton.LayoutTransform>
+        </RadioButton>
+    </Grid>
+</Window>
